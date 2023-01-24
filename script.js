@@ -15,6 +15,15 @@ function generateDayPlanner(starthour, endhour) {
   for (i = starthour; i < endhour; i++) {
     var classStyle = "";
     if (i < currHour) {
+      classStyle = "past";
+    } else if (i === currHour) {
+      classStyle = "present";
+    } else if (i > currHour) {
+      classStyle = "future";
     }
+    // finished adding the possible times for each section in the for loop
+    var timeblock = $("<div>");
+    timeblock.attr("class", "row time-block");
+    // created time the time block using jQuery and targeting the right row for each specific time.
   }
 }
