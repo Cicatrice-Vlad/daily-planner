@@ -25,5 +25,24 @@ function generateDayPlanner(starthour, endhour) {
     var timeblock = $("<div>");
     timeblock.attr("class", "row time-block");
     // created time the time block using jQuery and targeting the right row for each specific time.
+    // created time column below
+    var timeColumn = $("<div>");
+    timeColumn.attr("class", "col-lg-1 col-md-1 hour");
+    timeColumn.text(i);
+    // created the text area
+    var task = $("<textarea>");
+    task.attr("class", "col-lg-10 col-md-10 " + classStyle);
+    task.attr("cols", "100");
+    // adding a save button
+    var saveBtn = $("<button>");
+    saveBtn.attr("class", "col-lg-1 col-md-1 saveBtn fa fa-save");
+    // added the button to the code
+    timeblock.append(timeColumn);
+    timeblock.append(task);
+    timeblock.append(saveBtn);
+    plannerContainer.append(timeblock);
+    // appended all elements for the jQuery to work
   }
 }
+// calling the method below to update each row accordingly with the specific hour starting at 09 AM and ending at 17 PM, before 18 PM as mentioned due to the last indices not being counted had to add the next number in line so that the previous can be counted. Concatenation has been used in this code as well.
+generateDayPlanner(9, 18);
