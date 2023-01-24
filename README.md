@@ -1,87 +1,74 @@
-# Third-Party APIs: Work Day Scheduler
+# Daily Planner
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+For this project I have chosen to take into consideration the following:
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
- 
-## Acceptance Criteria
-
-The app should:
-
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
-
-* Save the event in local storage when the save button is clicked in that timeblock.
-
-* Persist events between refreshes of a page
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+- There was a need of a daily planner App that could help students and workers get through their working days in an organized manner.
+- This project was meant to help with that issue, and so it did with at least one individual.
+- Time-management is one of the most required soft skills nowadays by anyone that has the organisational sense of a working day. This project surely helped with that issue.
+- It is understandably helpful to have an App that can help you plan your day, not needing to remind yourself about all the activities and keep track worrying about deadlines.
 
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
+## Usage
 
-### Technical Acceptance Criteria: 40%
+To use this App you can simply follow the link below:
 
-* Satisfies all of the above acceptance criteria plus the following:
+![t-c-8194-teacher-daily-plan-_ver_1](https://user-images.githubusercontent.com/117217710/214445627-1cdbaefc-29a2-4e6c-a433-8369b4992b6b.jpg)
 
-  * Uses a date utility library to work with date and time
 
-### Deployment: 32%
+   
 
-* Application deployed at live URL
+## Credits
 
-* Application loads with no errors
+This was a sole project that was intended to expose the current skills.
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
+## License
 
-### Application Quality: 15%
+MIT License
 
-* Application user experience is intuitive and easy to navigate
 
-* Application user interface style is clean and polished
+Copyright (c) [2023] [Vlad Florin Bargaoanu]
 
-* Application resembles the mock-up functionality provided in the homework instructions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Repository Quality: 13%
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository has a unique name
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* Repository follows best practices for file structure and naming conventions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository contains multiple descriptive commit messages
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+## Badges
 
-## Review
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
