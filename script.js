@@ -46,3 +46,6 @@ function generateDayPlanner(starthour, endhour) {
 }
 // calling the method below to update each row accordingly with the specific hour starting at 09 AM and ending at 17 PM, before 18 PM as mentioned due to the last indices not being counted had to add the next number in line so that the previous can be counted. Concatenation has been used in this code as well.
 generateDayPlanner(9, 18);
+// outside of it grab the buttons and then give them all listeners.
+// DOM trafversal, this, or function target: hint!
+// use after, localstorage save item, use the git local storage in t
