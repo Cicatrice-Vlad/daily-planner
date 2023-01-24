@@ -15,6 +15,9 @@ For this project I have chosen to take into consideration the following:
 
 To use this App you can simply follow the link below:
 
+https://cicatrice-vlad.github.io/daily-planner/
+
+
 ![t-c-8194-teacher-daily-plan-_ver_1](https://user-images.githubusercontent.com/117217710/214445627-1cdbaefc-29a2-4e6c-a433-8369b4992b6b.jpg)
 
 
